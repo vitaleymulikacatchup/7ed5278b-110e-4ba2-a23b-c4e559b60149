@@ -77,30 +77,28 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Webild - Build Something Amazing Today",
-  description: "Transform your ideas into reality with our powerful platform designed for modern businesses and creators.",
-  keywords: ["business platform", "productivity tools", "team collaboration", "analytics", "automation"],
-  metadataBase: new URL("https://webild.com"),
+  title: "CloudFlow - Streamline Your Workflow",
+  description: "The all-in-one SaaS platform that helps teams collaborate, manage projects, and scale their business with intelligent automation and powerful integrations.",
+  keywords: "SaaS, project management, team collaboration, workflow automation, business tools, productivity, cloud software",
+  metadataBase: new URL("https://cloudflow.com"),
   alternates: {
-    canonical: "https://webild.com"
+    canonical: "https://cloudflow.com"
   },
   openGraph: {
-    title: "Webild - Build Something Amazing Today",
-    description: "Transform your ideas into reality with our powerful platform designed for modern businesses and creators.",
-    siteName: "Webild",
-    images: [
-      {
-        url: "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-        alt: "Modern workspace technology"
-      }
-    ],
+    title: "CloudFlow - Streamline Your Workflow",
+    description: "The all-in-one SaaS platform that helps teams collaborate, manage projects, and scale their business with intelligent automation and powerful integrations.",
+    siteName: "CloudFlow",
+    images: [{
+      url: "https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      alt: "CloudFlow dashboard interface"
+    }],
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Webild - Build Something Amazing Today",
-    description: "Transform your ideas into reality with our powerful platform designed for modern businesses and creators.",
-    images: ["https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"]
+    title: "CloudFlow - Streamline Your Workflow",
+    description: "The all-in-one SaaS platform that helps teams collaborate, manage projects, and scale their business with intelligent automation and powerful integrations.",
+    images: ["https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"]
   },
   robots: {
     index: true,
